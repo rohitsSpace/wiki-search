@@ -1,2 +1,7 @@
-<app-search-input (submitted)="onTermSubmitted($event)"></app-search-input>
-<app-search-results></app-search-results>
+<div class="w-full text-center mt-2 p-4">
+  <app-search-input (submitted)="onTermSubmitted($event)"></app-search-input>
+  <app-search-results
+    *ngIf="pages.length || searchTerm.length"
+    [pages]="pages"
+  ></app-search-results>
+</div>

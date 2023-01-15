@@ -1,3 +1,8 @@
 <form (submit)="handleSubmit($event)">
-  <input (input)="term = $any($event.target).value" />
+  <input
+    (input)="term = $any($event.target).value"
+    type="text"
+    placeholder="Enter text to make a search"
+    class="w-full"
+  />
 </form>
