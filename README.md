@@ -57,7 +57,7 @@ Your app is ready to be deployed and already deployed to vercel, you can use tha
 
 ### Tech Stack
 
-Angular
-Vercel
-Wikipedia API
-Tailwind CSS
+Angular <br />
+Vercel <br />
+Wikipedia API <br />
+Tailwind CSS <br />
